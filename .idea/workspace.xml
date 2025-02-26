@@ -4,18 +4,45 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75793b26-7780-4615-81f6-ce65c7420cc9" name="Changes" comment="" />
+    <list default="true" id="75793b26-7780-4615-81f6-ce65c7420cc9" name="Changes" comment="Initial code commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/qnmc/ExceptionQuine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/qnmc/ExceptionQuine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/qnmc/GUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/qnmc/GUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/qnmc/GetMintermList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/qnmc/GetMintermList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/qnmc/MenuBar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/qnmc/MenuBar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/qnmc/MinTerm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/qnmc/MinTerm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/qnmc/Quine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/qnmc/Quine.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "AnshikaBH"
+  }
 }]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/AnshikaBH/refactoring.git",
+    "accountId": "851b52ee-3297-4c0d-b5c4-ffa1f3ff293a"
+  }
+}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2tP4JWbZuKFjaYTgHwmavk2qXDK" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -24,11 +51,33 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.GUI.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="GUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="qnmc.GUI" />
+      <module name="refactoring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="qnmc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.GUI" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -39,5 +88,20 @@
       <updated>1740240309685</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial code commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial code commit" />
   </component>
 </project>
