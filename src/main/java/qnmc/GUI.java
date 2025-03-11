@@ -6,6 +6,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
+import java.io.Serial;
 import java.util.Iterator;
 import java.util.Set;
 
@@ -21,6 +22,7 @@ import javax.swing.UIManager.LookAndFeelInfo;
 
 public class GUI extends JFrame {
 
+    @Serial
     private static final long serialVersionUID = 1L;
     private JPanel panel;
 
@@ -30,6 +32,7 @@ public class GUI extends JFrame {
 
     private JTextArea resultShow;
     private JButton calBt;
+
     @SuppressWarnings("unused")
     private int i = 0;
 

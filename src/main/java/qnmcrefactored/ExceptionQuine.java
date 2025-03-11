@@ -1,4 +1,4 @@
-package qnmc;
+package qnmcrefactored;
 
 import java.io.Serial;
 
