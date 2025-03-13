@@ -8,13 +8,17 @@ public class Quine {
     protected static final int MAX_TERMS = 255;// 0xff=255
     // attribute
     public List<MinTerm> terms = new ArrayList<>();
+    private final MinTermManager minTermManager = MinTermManager.getInstance();
 
+    // singleton
+    public Quine() {
+    }
 
     // adding minterms
     public void addTerm(String str) throws ExceptionQuine {
         if (terms.size() == MAX_TERMS)
             throw new ExceptionQuine("Cannot add more terms. Maximum term limit reached");
-        terms.add(new MinTerm(str));
+        terms.add(MinTermFactory.createMinTerm(str)); // using minterm facory
     }
 
     // converted to string
@@ -59,8 +63,8 @@ public class Quine {
         for (int i = 0; i < terms.size(); i++) {
             for (int j = i + 1; j < terms.size(); j++) {
                 // finding the terms which differs in one place
-                if (terms.get(i).resolutionCount(terms.get(j)) == 1) {
-                    MinTerm combinedTerm = MinTerm.combine(terms.get(i), terms.get(j));
+                if (minTermManager.resolutionCount(terms.get(i), terms.get(j)) == 1) {
+                    MinTerm combinedTerm = minTermManager.combine(terms.get(i), terms.get(j));
                     if (!reducedTerms.contains(combinedTerm)) {
                         reducedTerms.add(combinedTerm);
                         reducedCount++;
